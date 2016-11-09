@@ -6,5 +6,4 @@
 - ноутбук с ubuntu илии установленной виртуальной машиной с ubuntu 
  
 ### Знакомство с github.
-1. Устанавливаем django TODO: Стащить все из https://tutorial.djangogirls.org/ru/installation/
-2.
+1. Устанавливаем django и далее по https://tutorial.djangogirls.org/ru/installation/
