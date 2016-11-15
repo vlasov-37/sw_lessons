@@ -27,6 +27,12 @@ source venv_python2.7/bin/activate
 pip freeze # Смотрим какие пакеты стоят в текущем виртуальном окружении 
 deactivate выходим из вирт. окружения
 pip freeze Смотрим что тут django нету
+
+source venv_python2.7/bin/activate 
+django-admin # Изучаем вывод команды
+django-admin startproject first_project
+Изучаем файлы  django проекта.
+[Вводное описание django](https://tutorial.djangogirls.org/ru/django/)
 ```
 
 ### Ссылки
