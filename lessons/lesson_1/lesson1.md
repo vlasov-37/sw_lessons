@@ -23,7 +23,7 @@ python
 Устанавливаем django
 ```
 source venv_python2.7/bin/activate 
-(venv) ~ pip install django
+(venv) ~ pip install django # Рассказать про версионирование пакетов.
 pip freeze # Смотрим какие пакеты стоят в текущем виртуальном окружении 
 deactivate выходим из вирт. окружения
 pip freeze Смотрим что тут django нету
