@@ -6,7 +6,7 @@
 В удобной для вас дирректории
 1. `git clone https://github.com/g10k/sw_lessons.git` # Создастся папка sw_lessons
 1. `cd sw_lessons/homeworks # Перешли в папку sw_lessons/homeworks`
-1.  `mkdir glok-sw; cd glok-sw; mkdir lesson_1; cd lesson_1` # Создаем свою папку и файл приветствия
+1.  `mkdir glok-sw; cd glok-sw; mkdir lesson_1; cd lesson_1` # Создаем свою папку и файл приветствия g10k-sw - заменить на название вашей папки
 1. `touch hello_world`
 1. `echo 'Hello from user' > hello_world` # Записали текст "Hello from user"
 
