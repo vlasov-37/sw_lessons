@@ -1,9 +1,6 @@
 # Занятие 1
-Установка virtualbox, python. Знакомство с github. Первые команды на python. Знакомство с основными типами данных, операторами Python.
+Знакомство с github. Знакомство с pip, virtualenv. Первые команды на python. Знакомство с основными типами данных, операторами Python. Обзор структуры проекта django.
 
-
-Требования:
-- ноутбук с ubuntu или установленной виртуальной машиной с ubuntu 
 ```
 python # мы попали в интерпретатор python >>> видим, версию 2.7.x или 3.5 на ubuntu 16.04. 
 >>> exit() - выход из интерпретатора
@@ -36,6 +33,9 @@ django-admin startproject first_project
 ```
 
 ### Ссылки
+
+[Инструкция для отправки своего кода на github](https://github.com/g10k/sw_lessons/blob/master/lessons/lesson_1/install_and_commit_via_git.md)
+
 [Инструкция](http://ru.wikihow.com/%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%82%D1%8C-Ubuntu-%D0%B2-VirtualBox)  как установить ubuntu на виртуальную машину Linux.
 
 [Основные команды linux](http://forum.ubuntu.ru/index.php?topic=14535.15)
