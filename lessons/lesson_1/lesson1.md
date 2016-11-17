@@ -54,3 +54,5 @@ django-admin startproject first_project
 [Вводное описание django](https://tutorial.djangogirls.org/ru/django/)
 
 [Первый урок django на djbook](http://djbook.ru/rel1.9/intro/tutorial01.html)
+
+[Почему важно обучать других и отвечать на вопросы](https://lh4.googleusercontent.com/_OY-yBNwZY8I/TayPMZwe68I/AAAAAAAABzI/tSXTW-fyv5k/LearningPyramid.JPG)
