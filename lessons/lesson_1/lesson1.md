@@ -8,6 +8,7 @@ sudo apt-get install virtualenv python-pip
 mkdir lesson1
 virtualenv venv_python2.7
 source venv_python2.7/bin/activate # Активируем виртуальное окружение, есть shortcut virtualenvwrapper сделать это командой короче.
+pip install ipython # установим в виртуальном окружении ipython
 python 
 ```
 Выполняем команды из [руководства для новичков](http://pythontutor.ru/lessons/inout_and_arithmetic_operations/)
