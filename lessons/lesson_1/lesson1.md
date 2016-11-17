@@ -14,10 +14,11 @@ python
 Выполняем команды из [руководства для новичков](http://pythontutor.ru/lessons/inout_and_arithmetic_operations/)
  1. Считаем площадь треугольника
  1. функция категории числа: -1, 0, 1
- 1. Переменные не строго типизированные
- 1. отличия python2.7 и python3
- 1. ```from __future__ import absolute_import unicode_literals, print_function``` # Должно быть в начале файла
- 1. Отступы важны (tab или space, но не смешивать)
+
+Что нужно запомнить
+ - Переменные динамически типизированные
+ - отличия python2.7 и python3  ```from __future__ import absolute_import unicode_literals, print_function``` # Должно быть в начале файла
+ - Отступы важны (tab или space, но не смешивать)
 
 Устанавливаем django
 ```
