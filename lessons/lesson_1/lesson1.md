@@ -32,8 +32,9 @@ source venv_python2.7/bin/activate
 django-admin # Изучаем вывод команды
 django-admin startproject first_project
 Изучаем файлы  django проекта.
-[Вводное описание django](https://tutorial.djangogirls.org/ru/django/)
+
 ```
+
 
 ### Ссылки
 
@@ -49,3 +50,4 @@ django-admin startproject first_project
 
 [Оформление кода Python](http://pep8.ru/doc/pep8/)
 
+[Вводное описание django](https://tutorial.djangogirls.org/ru/django/)
