@@ -48,6 +48,6 @@ django-admin startproject first_project
 
 [Отличия python 2 и 3](https://pythonworld.ru/osnovy/python2-vs-python3-razlichiya-sintaksisa.html) | [Официальные](https://docs.python.org/3.0/whatsnew/3.0.html)
 
-[Оформление кода Python](http://pep8.ru/doc/pep8/)
+[Оформление кода Python](http://pep8.ru/doc/pep8/) | [PEP8](https://pythonworld.ru/osnovy/pep-8-rukovodstvo-po-napisaniyu-koda-na-python.html)
 
 [Вводное описание django](https://tutorial.djangogirls.org/ru/django/)
