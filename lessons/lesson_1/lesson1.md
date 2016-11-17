@@ -41,3 +41,4 @@ django-admin startproject first_project
 [Основные команды linux](http://forum.ubuntu.ru/index.php?topic=14535.15)
 
 [Курс по git](https://githowto.com/ru)
+[Отличия python 2 и 3](https://pythonworld.ru/osnovy/python2-vs-python3-razlichiya-sintaksisa.html)
