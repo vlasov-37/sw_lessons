@@ -4,7 +4,7 @@
 ```
 python # мы попали в интерпретатор python >>> видим, версию 2.7.x или 3.5 на ubuntu 16.04. 
 >>> exit() - выход из интерпретатора
-apt-get install virtualenv python-pip
+sudo apt-get install virtualenv python-pip
 mkdir lesson1
 virtualenv venv_python2.7
 source venv_python2.7/bin/activate # Активируем виртуальное окружение, есть shortcut virtualenvwrapper сделать это командой короче.
