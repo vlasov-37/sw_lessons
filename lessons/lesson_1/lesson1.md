@@ -34,9 +34,10 @@ django-admin startproject first_project
 Изучаем файлы  django проекта.
 
 ```
-
+[Модель работы Django](http://rnevius.github.io/django_request_response_cycle.png)
 
 ### Ссылки
+
 
 [Инструкция для отправки своего кода на github](https://github.com/g10k/sw_lessons/blob/master/lessons/lesson_1/install_and_commit_via_git.md)
 
