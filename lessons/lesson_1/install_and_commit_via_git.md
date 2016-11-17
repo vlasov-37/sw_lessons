@@ -17,7 +17,7 @@
 1. `git add hello_world` # взяли под контроль версий.
 1. `git commit hello_world -m 'comment from user'` # добавили в индекс с комментарием для вашего коммита
 1. `git config --global user.email "ваш email_при регистрации на github"` # для авторизации
-1. `git push origin` # Отправляем изменения на сервер, нужно будет ввести ник и пароль, в конце должно быть `Ok`
+1. `git push origin <ваш ник>` # Отправляем изменения на сервер, нужно будет ввести ник и пароль, в конце должно быть `Ok`
 
 Чтобы не вводить каждый раз ник и пароль их можно [добавить в конфиг git](https://git-scm.com/book/ru/v1/%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5-%D0%9F%D0%B5%D1%80%D0%B2%D0%BE%D0%BD%D0%B0%D1%87%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F-%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-Git)
 Правильным способом авторизации является [авторизация через ssh-ключ](https://help.github.com/articles/generating-an-ssh-key/)
