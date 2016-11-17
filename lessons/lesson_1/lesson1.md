@@ -47,3 +47,5 @@ django-admin startproject first_project
 
 [Отличия python 2 и 3](https://pythonworld.ru/osnovy/python2-vs-python3-razlichiya-sintaksisa.html) | [Официальные](https://docs.python.org/3.0/whatsnew/3.0.html)
 
+[Оформление кода Python](http://pep8.ru/doc/pep8/)
+
