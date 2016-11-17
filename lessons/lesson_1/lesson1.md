@@ -51,3 +51,5 @@ django-admin startproject first_project
 [Оформление кода Python](http://pep8.ru/doc/pep8/) | [PEP8](https://pythonworld.ru/osnovy/pep-8-rukovodstvo-po-napisaniyu-koda-na-python.html)
 
 [Вводное описание django](https://tutorial.djangogirls.org/ru/django/)
+
+[Первый урок django на djbook](http://djbook.ru/rel1.9/intro/tutorial01.html)
