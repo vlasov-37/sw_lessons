@@ -1,5 +1,3 @@
-import math
-
 def sign(number:int):
     if number > 0:
         return 1
