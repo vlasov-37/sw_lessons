@@ -49,5 +49,52 @@ PEP8 (Именование переменных) (10 минут)
   - вывод транспонированного вида
   - вывод змейкой
   - вывод "гипнозом".
+ пример 
+```python
+class SquareMatrix(object):
+    def __init__(self, size):
+        self.size = size
+
+    def create_matrix(self):
+        # Создаем матрицу с использованием random , сохраняем в атрибут self._matrix и возвращаем ее
+        pass
+
+    def get_matrix(self):
+        # отдаем матрицу
+        pass
+
+    def get_element(self,i,j):
+        # вернуть self._matrix[i][j]
+        # предусмотреть, что i,j могут быть введены больше чем размерность, тогда вернуть None
+        pass
+
+    def add_to_element(self,i,j, value):
+        # Добавить self._matrix[i][j] + value
+        pass
+
+    def get_transposed_matrix(self):
+        # вернуть транспонированную матрицу
+        pass
+
+    def print_hypno(self):
+        # Для матрицы
+        # [1, 8, 7],
+        # [2, 9, 6],
+        # [3, 4, 5]
+        # Вывести [1,2,3,4,5,6,7,8,9]
+        pass
+
+    def print_snake(self):
+        # [1, 8, 7],
+        # [2, 9, 6],
+        # [3, 4, 5]
+        # Вывести [1, 2, 3, 4, 9, 8, 7, 6, 5]
+        pass
+
+class Matrix(object):
+    # Написать матрицу, но уже не квадратную, а размерности N x M, также задавать через конструктор.
+    pass
+```
+  
 1. Установить PyCharm.
 1. Скачать приложение django из репозитория, запустить его, добавить свой url. Запушить в свою ветку.
