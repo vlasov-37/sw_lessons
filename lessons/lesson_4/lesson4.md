@@ -1,5 +1,5 @@
 # Занятие 4
-### Model View Controller концепция. Модели в django.
+### Model View Controller концепция. Основные команды manage.py.  Модели в django.
 Решение домашнего задания.
 [Основы проекта django](http://djbook.ru/rel1.9/intro/tutorial02.html)
 На что обратить внимание:
@@ -21,5 +21,5 @@
  1. Сделать простейшую view и шаблон, где будут отображаться записи.
 
 ### Ссылки
-[Model-View-Controller](https://ru.wikipedia.org/wiki/Model-View-Controller)
-[MVC это MTV в django](http://djbook.ru/ch05s02.html)
+1. [Model-View-Controller](https://ru.wikipedia.org/wiki/Model-View-Controller)
+1. [MVC это MTV в django](http://djbook.ru/ch05s02.html)
