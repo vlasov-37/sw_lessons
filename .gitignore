@@ -2,3 +2,4 @@
 .DS_Store
 .git
 .project
+django_project/mysite/db.sqlite3
