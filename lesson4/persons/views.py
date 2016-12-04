@@ -28,3 +28,13 @@ def person_edit(request, person_id):
         return HttpResponseRedirect('/')
     c['form'] = form
     return render(request, template_name='persons/person_edit.html', context=c)
+
+
+def message(request):
+    form = forms.Message(request.POST or None)
+    c = {}
+    c['form'] = form
+    if form.is_valid():
+        print 'valid'
+    else:
+        return render(request, template_name='persons/message.html', context=c)
