@@ -2,4 +2,16 @@
 
 {% block body %}
     {{ persons }}
+
+    <h3>Большими буквами</h3>
+    {% for person in persons %}
+        {{ person.fio_upper }}
+    {% endfor %}
+
+
+    <h3>Большими буквами с исползованием фильтра</h3>
+    {% for person in persons %}
+        {{ person|upper }}
+    {% endfor %}
+
 {% endblock body %}

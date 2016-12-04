@@ -2,5 +2,5 @@
 
 {% block body %}
     {{ person }}
-    {% include 'persons/includes/footer.html' %}
+    {% include 'persons/includes/footer.html' with obj=person %}
 {% endblock  %}

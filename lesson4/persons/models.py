@@ -13,6 +13,9 @@ class Person(models.Model):
     def __unicode__(self):
         return '%s %s' % (self.last_name, self.first_name)
 
+    def fio_upper(self):
+        return unicode(self).upper()
+
 
 
 # Количество людей в БД
