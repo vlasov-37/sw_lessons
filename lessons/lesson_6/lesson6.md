@@ -1,11 +1,11 @@
 # Занятие 5
-## Операции Queryset. Наследование шаблонов. Формы, задание параметров вручную, валидаторы
+## Операции Queryset. Наследование шаблонов. Формы, задание полей вручную, валидаторы
 
 ### Операции Queryset. 
 Имеем класс Person из lesson4 приложения.
 
 #### Создание объектов.
- ```p = Person(last_name=u'Власов', first_name=u'Сергей')``` # *Создает объект, можно изменить его, а потом вызвать save для сохранения. У `p` есть атрибут `p.pk`*
+ `p = Person(last_name=u'Власов', first_name=u'Сергей')` # *Создает объект, можно изменить его, а потом вызвать save для сохранения. У `p` есть атрибут `p.pk`*
  
  `Person.objects.create(last_name=u'Власов', first_name=u'Сергей')` # *Создает и сохраняет объект сразу*
  
@@ -39,9 +39,10 @@
  - доступ к ошибкам формы
  
 ## Домашнее задание.
-  #### Querysets
+#### Querysets
+
   Для модели:
-  ```
+  ```python
   class Entry(models.Model):
     headline = models.CharField(max_length=255)
     body_text = models.TextField()
@@ -68,17 +69,21 @@
       создать запись в БД 2 способами.
       обновить значения через update
         
-  #### Шаблоны.
+#### Шаблоны.
+
 - Сделать базовый шаблон и отнаследовать от него все остальные. Переопределить для каждой страницы title 
 - Создать include шаблон header где будет выводиться `<h1>{{object}}</h1>` и вставить его только в страницы редактирования и отображения детальной информации об объекте
 - Передать следующий текст в шаблон.
-```Beautiful is better than ugly. Explicit is better than implicit. Simple is better than complex. Complex is better than complicated.Flat is better than nested.````
- - вывести его большими буквами, маленькими.
- - вывести только первых 10 слов
- - вывести только первые 100 символов
- #### Формы.
+
+`Beautiful is better than ugly. Explicit is better than implicit. Simple is better than complex. Complex is better than complicated.Flat is better than nested.`
+
+   - вывести его большими буквами, маленькими.
+   - вывести только первых 10 слов
+   - вывести только первые 100 символов
  
-- создать форму, страницу для нее, поля формы
+#### Формы.
+ 
+ - создать форму, страницу для нее, поля формы
  - Имя (обязательное поле, минимум 6 символов)
  - количество лет ( минимум должно быть 18)
  - тема сообщения (обязательное поле)
@@ -86,7 +91,9 @@
  - контактный телефон (обязательное поле)
        
  ## Ссылки 
- [Операции Queryset](http://djbook.ru/rel1.9/topics/db/queries.html) 
+ [Операции Queryset](http://djbook.ru/rel1.9/topics/db/queries.html)
+ 
  [Язык шаблонов](http://djbook.ru/rel1.9/ref/templates/language.html)
+ 
  [Что нужно знать о формах на первых порах](http://djbook.ru/rel1.9/topics/forms/index.html)
  
