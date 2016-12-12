@@ -10,7 +10,8 @@ class Person(forms.ModelForm):
 
 class Message(forms.Form):
     title = forms.CharField(label=u'Заголовок', max_length=255)
-    comment = forms.CharField(label=u'Заголовок', max_length=255)
+    comment = forms.CharField(label=u'Комментарий', max_length=255, widget=forms.Textarea)
+    count = forms.IntegerField(label=u'Количество')
     email = forms.EmailField(label=u'Email')
     post_scriptum = forms.CharField(label=u'П.С.', required=False)
 

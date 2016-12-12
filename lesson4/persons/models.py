@@ -1,6 +1,6 @@
 # coding=utf-8
 from django.db import models
-
+from django.core import validators
 # Create your models here.
 class Person(models.Model):
     last_name = models.CharField(max_length=255)
@@ -9,13 +9,24 @@ class Person(models.Model):
     birth = models.DateField(u'Дата рождения', blank=True, null=True)
     email = models.EmailField(u'Почта', null=True)
 
-
     def __unicode__(self):
         return '%s %s' % (self.last_name, self.first_name)
 
     def fio_upper(self):
         return unicode(self).upper()
 
+
+class Passport(models.Model):
+    serial = models.PositiveIntegerField(validators=[validators.MaxValueValidator(9999)])
+    number = models.PositiveIntegerField(validators=[validators.MaxValueValidator(999999)])
+    person = models.OneToOneField('Person', on_delete=models.CASCADE, null=True, blank=True, related_name='passport')
+    propiska = models.TextField(u'Прописка')
+
+    def __unicode__(self):
+        return '%s %s' % (self.serial, self.number)
+
+    class Meta:
+        unique_together = ('serial','number')
 
 
 # Количество людей в БД
