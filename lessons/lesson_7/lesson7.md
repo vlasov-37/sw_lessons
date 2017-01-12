@@ -49,5 +49,7 @@
           
 ### Ссылки
  [валидаторы](https://docs.djangoproject.com/en/1.10/ref/validators/#validate-email)
+ 
  [Проверка форм](http://djbook.ru/rel1.9/ref/forms/validation.html)
+ 
  [on_delete](http://djbook.ru/rel1.9/ref/models/fields.html#ref-onetoone)
