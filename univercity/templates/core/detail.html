@@ -1,0 +1,15 @@
+{% extends 'core/index.html' %}
+{% block main_content %}
+    <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+        <h1 class="page-header">Подробная информация: </h1>
+        <div class="row info">
+<ul>
+<strong>Фамилия: </strong>{{ recordbook.student.surname }}<br>
+<strong>Имя: </strong>{{ recordbook.student.name }}<br>
+<strong>Отчество: </strong>{{ recordbook.student.middlename}}<br>
+<strong>Учебная группа: </strong>{{ recordbook.student.study_group }}<br>
+<strong>Номер зачетной книжки: </strong>{{ recordbook.number }}<br>
+</ul>
+        </div>
+    </div>
+{% endblock main_content %}

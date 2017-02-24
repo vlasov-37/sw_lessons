@@ -1,0 +1,20 @@
+{% extends 'core/index.html' %}
+{% load staticfiles %}
+{% block main_content %}
+    <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+        <h1 class="page-header">Наши студенты</h1>
+        <div class="row placeholders">
+{% if all_students %}
+    {% for students in all_students %}
+        <div class="col-xs-6 col-sm-3 placeholder">
+            <img src="{% static 'assets/img/logo-mai-2016-feb-100x100.png'%}" width="200" height="200" class="img-responsive" alt="Generic placeholder thumbnail">
+            <h4><a href="{% url 'core:detail' students.id %}">{{ students.surname }} {{ students.name }}</a></h4>
+            <span class="text-muted">{{ students.study_group }}</span>
+            </div>
+    {% endfor %}
+{% else %}
+    <p>Студентов в базе нет.</p>
+{% endif %}
+        </div>
+    </div>
+{% endblock main_content %}
